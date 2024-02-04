@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/img/android-chrome-512x512.png">
+    <title>Matemu Baloyi portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Matemu</span>Baloyi</a>
+        
+        <ul class="Navsidebar">
+            <li class="x-button" onclick=hideNavsidebar()><a href="#" class="logo"><svg xmlns="http://www.w3.org/2000/svg" display=flex; width="28" height="28" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: 1px; msFilter: 1px;"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg></a></li>
+            <li><a href="#homes" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>   
+            <li><a href="#contacts">CONTACTS</a></li>
+        </ul> 
+
+        <ul class="nav-list">
+            
+            <li><a href="#homes" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li> 
+            <li><a href="#contacts">CONTACTS</a></li>
+            <li class="menu  responsive-menu" onclick=showNavsidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform:1 ; msFilter:2;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></i></a></li>
+        </ul>   
+    </header>
+
+    <section class="homes" id="homes">
+        <div class="img-dalas">
+            <img src="img/IMG-20200815-WA0016.jpg" alt="">
+            <div class="rotating-img">
+                <div class="text">
+                    <p><h2>I'm a univen student who is studying computer science</h2></p>
+                </div>
+            </div>
+        </div>
+        <div class="dalas-info">
+            <h3>Welcome to my website</h3>
+            <h1>Hello, My name is Matemu</h1>
+
+            <div class="text-animate">
+                <h2>C++ developer</h2>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa vero provident nostrum adipisci consectetur consequuntur obcaecati suscipit libero itaque? Sequi eius dolorum veritatis fugit odio illum perspiciatis aspernatur voluptate.</p>
+            
+            <div class="btn-box">
+                <a href="mhumprhey3@gmail.com" class="btn">Hire me now!<i class='bx bx-right-arrow-alt'></i></a>
+                <a href="img/Matemu CV.pdf" target="_blank" class="btn d-CV">Download CV<i class='bx bx-download' ></i></a>
+            </div>
+            <div class="social-media">
+
+               <div class="Icons">
+                  <a href="https://www.instagram.com/matimu.baloyi"><i class='bx bxl-instagram' ></i></a>
+                  <span></span>
+                </div>
+
+                <div class="Icons">
+                   <a href="https://www.facebook.com/matimu.baloyi.710"><i class='bx bxl-facebook' ></i></a>
+                   <span></span>
+                </div>
+
+                <div class="Icons">
+                  <a href="https://wa.me/0607289278"><i class='bx bxl-whatsapp' ></i></a>
+                  <span></span>
+                </div>
+
+                <div class="Icons">
+                    <a href="https://www.x.com"><i class='bx bxl-twitter' ></i></a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+        <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/IMG-20200815-WA0016.jpg" class="image" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias,
+                         voluptatem aut nesciunt nulla earum facere ab sunt vero blanditiis.
+                         Tempora est quaerat molestias tempore optio ad similique eveniet, nihil illo.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+                    </div>     
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming languages</span><br>-Html,css</li>
+                            <li>-Java</li>
+                            <li>-C++</li>
+                            <li>SQL</li>
+                            <li><span>Framworks</span><br>-Html,css</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>programming languages</span><br>-Html,css</li>
+                            <li>-Java</li>
+                            <li>-C++</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Venda</span><br></li>
+                            <li>Bsc in Computer Sciences</li>
+                            <li><span>2021-Current</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificates">
+                        <ul>
+                            <li><span>COMING SOON</span><br></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!--<section class="abouts" id="abouts">
+        <h2 class="about_header">ABOUT</h2>
+          <div class="about_content"> 
+            <img src="img/IMG-20200815-WA0016.jpg" class="images" alt="">
+
+            <div class="about_text">
+                
+                <h5 class="about_role">Developer <span class="role">& Designer</span> </h5>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Inventore, deleniti? Asperiores dolor modi culpa fugit unde dicta voluptatibus. 
+                 Tempore et eligendi sapiente debitis dicta. Natus eaque reprehenderit voluptates quisquam aliquam.
+                </p>
+                <a href=""><button class="button">Read more</button></a>
+            </div>
+        </div>
+    </section>
+    -->
+    <section class="services" id="services">
+        <div class="service_content">
+            <h1 class="service_header">Service</h1>
+            <div class="service">
+                <div class="card_content">
+                    
+                    <div class="card">
+                        <i class = 'bx bxs-image-alt'></i>
+                        <h2 class="role">web development</h2>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Odio quisquam cupiditate ullam? Eveniet, ea aspernatur veritatis dignissimos placeat,
+                             illo facilis, quisquam sunt qui unde sit quidem est officia magni omnis!</p>
+                    </div>
+                     <div class="card">
+                        <i class = 'bx bxs-image-alt'></i>
+                        <h2 class="role">web development</h2>
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Odio quisquam cupiditate ullam? Eveniet, ea aspernatur veritatis dignissimos placeat,
+                             illo facilis, quisquam sunt qui unde sit quidem est officia magni omnis!</p>
+                    </div>
+                     <div class="card">
+                        <i class = 'bx bxs-image-alt'></i>
+                        <h2 class="role">web development</h2> 
+                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Odio quisquam cupiditate ullam? Eveniet, ea aspernatur veritatis dignissimos placeat,
+                             illo facilis, quisquam sunt qui unde sit quidem est officia magni omnis!</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section class="portfolio" id="portfolio">
+
+        <div class="portfolio_header">
+        <h3>
+            PORTFOLIO
+        </h3>
+        
+        </div>
+
+        
+
+        <div class="projects" id="projects">
+            
+            <div class="portfolio_image">
+              <div class="hotel_management_system">
+                  <img src="img/coming soon.jpg" alt="">
+                  <h3>
+                     hotel_management_system
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+             </div> 
+            </div>
+
+            <div class="portfolio_image">
+              <div class="Online_shopping_page">
+                  <img src="img/coming soon.jpg" alt="">
+                  <h3>
+                     shopping
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+             </div>
+            </div>
+            
+            <div class="portfolio_image">
+              <div class="Online_shopping_page">
+                  <img src="img/coming soon.jpg" alt="">
+                  <h3>
+                     coming soon
+                  </h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+             </div>
+            </div>
+
+        </div>
+    </section>
+ 
+   
+
+   <section class="contacts" id="contacts">
+     <div class="container">
+        <h2 class="contact_header">CONTACTS</h2>
+        <div class="contact_wrapper">
+            <div class="contact_form">
+                <h3 class="notice">Send me a message</h3>      
+            <form>
+                <div class="form_group">
+                    <input type="text" name="name" placeholder="names" id="Your_name">
+                </div>
+                 <div class="form_group">
+                    <input type="email" name="email" placeholder="email">
+                </div>
+                 <div class="form_group_meassge">
+                    <textarea name="message" placeholder="your_message"></textarea>
+                </div>
+                <button type="Submit">Send message</button>
+            </form>
+            </div>
+            <div class="contact_information">
+            <h3>More contact information</h3>
+            <p><i class='bx bxs-phone' ></i>+27 60 728 9278</p>
+            <p><i class='bx bxs-envelope' ></i>mhumprhey3@gmail.com</p>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+   </section>
+
+   <footer class="ftco-footer ftco-section">
+		<div class="footer-container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Matemu's <i class="icon-heart color-danger" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank">portfolio</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+   <script>
+
+     const tablinks = document.getElementsByClassName("tab-links")
+        const tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+            
+        }
+    function showNavsidebar() {
+        const sidebar = document.querySelector('.Navsidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideNavsidebar() {
+        const sidebar = document.querySelector('.Navsidebar')
+        sidebar.style.display = 'none'
+    }
+   </script>
+    <script src="https:smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
